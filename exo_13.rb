@@ -3,6 +3,6 @@ print "> "
 birthyear = Integer(gets) rescue false
 
 while birthyear<=2020
-	puts "#{birthyear}"
+	puts birthyear
 	birthyear+=1
 end
