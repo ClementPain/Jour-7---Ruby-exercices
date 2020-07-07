@@ -1,10 +1,12 @@
-puts "Bonjour, quel est ton année de naissance ?"
+puts "Bonjour, quel est ton âge ?"
 print "> "
-birthyear = Integer(gets) rescue false
+age_put = Integer(gets) rescue false
 
-i=birthyear
+birthyear=2020-age_put
+age_curl=age_put
 
-while i<=2020
-	puts "Il y a #{2020-i} ans tu avais #{i-birthyear} !"
-	i+=1
+while birthyear<=2020
+	puts "Il y a #{age_curl} ans tu avais #{age_put - age_curl} !"
+	age_curl-=1
+	birthyear+=1
 end

@@ -2,7 +2,7 @@ puts "Bonjour, quel est ton année de naissance ?"
 print "> "
 birthyear = Integer(gets) rescue false
 
-i=birthyear
+i=2020-birthyear
 
 while i<=2020
 	print "#{i} :"
