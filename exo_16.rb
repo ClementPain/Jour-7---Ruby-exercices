@@ -5,7 +5,6 @@ birthyear = Integer(gets) rescue false
 i=birthyear
 
 while i<=2020
-	print "#{i} :"
-	puts "Tu avais donc #{i-birthyear} ans en #{i} !"
+	puts "Il y a #{2020-i} ans tu avais #{i-birthyear} !"
 	i+=1
 end
